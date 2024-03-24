@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Cricketapp</string>
+    <string name="admin_login">Admin Login</string>
 </resources>

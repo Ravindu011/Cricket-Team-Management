@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pro"
+    tools:context=".ViewPlayerProfile">
+
+    <TextView
+        android:id="@+id/Name2"
+        android:layout_width="303dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Name Of the player"
+        android:inputType="textPersonName"
+        android:textColor="#FFFF00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/editNumber"
+        android:layout_width="91dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="Match"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textColor="#FFFF00"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name2" />
+
+    <TextView
+        android:id="@+id/editNumber2"
+        android:layout_width="91dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Runs"
+        android:inputType="number"
+        android:textColor="#FFFF00"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNumber" />
+
+    <TextView
+        android:id="@+id/editNumber4"
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="50"
+        android:inputType="number"
+        android:textColor="#FFFF00"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNumber2" />
+
+    <TextView
+        android:id="@+id/editNumber5"
+        android:layout_width="117dp"
+        android:layout_height="52dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="100"
+        android:inputType="number"
+        android:textColor="#FFFF00"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNumber4" />
+
+    <TextView
+        android:id="@+id/editNumber7"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Rate"
+        android:inputType="textPersonName"
+        android:textColor="#FFFF00"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNumber5"
+        app:layout_constraintVertical_bias="0.216" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

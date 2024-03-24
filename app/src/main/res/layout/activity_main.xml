@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/ooo"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -15,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:backgroundTint="#3F51B5"
-        android:text="Admin Login"
+        android:text="@string/admin_login"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
@@ -26,40 +25,33 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
         android:gravity="center_horizontal"
         android:text="Welcome To The "
-        android:textColor="#FFDD00"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="367dp"
-        android:layout_height="422dp"
-        android:background="#66000000"
+        android:layout_width="445dp"
+        android:layout_height="70dp"
         android:text=" Sri Lanka Cricket"
-        android:textColor="#4171FF"
-        android:textSize="45sp"
+        android:textColor="#0036D8"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="313dp"
-        android:layout_height="288dp"
-        android:layout_marginBottom="120dp"
+        android:layout_width="151dp"
+        android:layout_height="119dp"
         android:src="@drawable/ccc"
-        app:layout_constraintBottom_toTopOf="@+id/btnView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="227dp" />
 
     <Button
         android:id="@+id/btnView"
@@ -67,12 +59,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="44dp"
-        android:backgroundTint="#03A9F4"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="#8AEA8100"
         android:text="View Team"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
